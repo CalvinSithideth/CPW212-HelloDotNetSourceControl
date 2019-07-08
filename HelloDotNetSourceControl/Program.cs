@@ -10,6 +10,12 @@ namespace HelloDotNetSourceControl
     {
         static void Main(string[] args)
         {
+            DisplayGreeting();
+            Console.ReadKey();
+        }
+
+        static void DisplayGreeting()
+        {
             Console.WriteLine("Hello World");
         }
     }
