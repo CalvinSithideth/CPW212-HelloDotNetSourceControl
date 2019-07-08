@@ -1,0 +1,11 @@
+﻿USE master
+CREATE DATABASE TestDb
+GO
+
+USE TestDb
+GO
+
+CREATE TABLE Test
+(
+	ID INT PRIMARY KEY
+)
